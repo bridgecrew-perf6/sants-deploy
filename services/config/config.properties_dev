@@ -1,0 +1,36 @@
+[COMMON]
+
+[VPC]
+vpc.id = 
+vpc.publicsubnet1az = eu-west-1a
+vpc.publicsubnet2az = eu-west-1b
+vpc.privatesubnet3az = eu-west-1c
+vpc.publicsubnet4az = eu-west-1c
+vpc.cidrvpc = 192.168.0.0/22
+vpc.cidrsubnet1az = 192.168.0.0/24
+vpc.cidrsubnet2az = 192.168.1.0/24
+vpc.cidrsubnet3az = 192.168.2.0/24
+vpc.cidrsubnet4az = 192.168.3.0/24
+
+vpc.subnet1az = 
+vpc.subnet2az = 
+vpc.subnet3az = 
+vpc.subnet4az =
+
+[ROUTE53]
+route53.domain = santsmontjuic.es
+route53.hostedzone = ZGRLPO4XV3KE4
+
+[TAG-DATADOG]
+env = dev
+owner = sants
+
+[TAG-VPC]
+env = dev
+owner = sants
+service = vpc
+
+[TAG-EKS]
+env = dev
+owner = sants
+service = eks

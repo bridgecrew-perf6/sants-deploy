@@ -1,0 +1,74 @@
+{
+  "AWSTemplateFormatVersion" : "2010-09-09",
+
+  "Description" : "Stack for VPC BI.",
+
+  "Parameters" : {
+    "name" : {
+      "Type" : "String",
+      "Default": "sants-eks",
+      "Description" : "Sants Eks"
+    },
+    "Vpc" : {
+      "Type" : "String",
+      "Default": "vpc-0a04554f7b84106af",
+      "Description" : "Sants Eks"
+    }
+  },
+
+  "Resources": {
+    "eksSecurityGroup": {
+          "Type": "AWS::EC2::SecurityGroup",
+          "Properties": {
+            "GroupDescription": "Allow access to cortexEE",
+            "Tags": [ {"Key" : "Name", "Value" : "eksSecurityGroup"} ],
+            "SecurityGroupIngress": [
+              {
+                "CidrIp": "0.0.0.0/0",
+                "IpProtocol": "-1"
+              }
+            ],
+            "VpcId" : { "Ref" : "Vpc" }
+          }
+    },
+
+    "eksClusterRole2": {
+      "Type" : "AWS::IAM::Role",
+      "Properties" : {
+          "AssumeRolePolicyDocument" : {
+            "Version": "2012-10-17",
+            "Statement": [
+              {
+                "Effect": "Allow",
+                "Principal": {
+                  "Service": "eks.amazonaws.com"
+                },
+                "Action": "sts:AssumeRole"
+              }
+            ]
+          },
+          "Path": "/",
+          "Description" : "Sants EKS security group",
+          "ManagedPolicyArns" : [ "arn:aws:iam::aws:policy/AmazonEKSClusterPolicy" ],
+          "RoleName" : "santseks",
+          "Tags": [ {"Key" : "Name", "Value" : "eksSecurityGroup"} ]
+      }
+    },
+
+    "eksCluster": {
+      "Type" : "AWS::EKS::Cluster",
+      "Properties" : {
+          "Name" : { "Ref" : "name" },
+          "ResourcesVpcConfig" : 
+          {
+            "SecurityGroupIds" : [
+              { "Ref" : "eksSecurityGroup" }
+            ],
+            "SubnetIds" : [ "subnet-0849f76f6e400324e", "subnet-0f9e47e91dedc1906" ]
+          },
+          "RoleArn" : {"Fn::GetAtt" : ["eksClusterRole2", "Arn"] },
+          "Version" : "1.18"
+      }
+    }
+  } 
+}

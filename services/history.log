@@ -1,0 +1,172 @@
+    1  ls -l
+    2  ls -l
+    3  cd dda/
+    4  ls -l
+    5  cd cloudformation/
+    6  ls -l
+    7  mv lib/ ../
+    8  ls -l
+    9  cd ..
+   10  ls-l 
+   11  ls -l
+   12  python build.py --labelstack 5 --stack_list vpc
+   13  pip install boto
+   14  python build.py --labelstack 5 --stack_list vpc
+   15  python build.py --labelstack 5 --stack_list vpc
+   16  python build.py --labelstack 5 --stack_list vpc
+   17  python build.py --labelstack 5 --stack_list vpc
+   18  pip install boto3
+   19  python build.py --labelstack 5 --stack_list vpc
+   20  python build.py --labelstack 5 --stack_list vpc
+   21  python build.py --labelstack 5 --stack_list vpc --env dev
+   22  python build.py --labelstack 5 -sl vpc --env dev
+   23  python build.py --labelstack 5 -sl "vpc" --env dev
+   24  python build.py --labelstack 5 -sl "vpc" --env dev -rg "eu-west-1"
+   25  python build.py --labelstack 5 -sl "vpc" --env dev -rg "eu-west-1" -zn "eu-west-1a"
+   26  python build.py --labelstack 5 -sl "vpc" --env dev -rg "eu-west-1" -zn "eu-west-1a"
+   27  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   28  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   29  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   30  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   31  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   32  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   33  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   34  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   35  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   36  pip insall requests
+   37  pip install requests
+   38  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   39  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   40  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   41  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   42  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   43  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a"
+   44  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack false
+   45  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   46  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   47  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   48  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   49  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   50  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   51  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   52  ll
+   53  ls -l
+   54  ls -l
+   55  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   56  ll
+   57  ls -l
+   58  cd lib/
+   59  ll
+   60  ls -l
+   61* ls -l ../cloudformation/vcp.json 
+   62  cd ..
+   63  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   64  cd lib/
+   65  ls -l ../cloudformation/vpc.json
+   66  ls -l ../cloudformation/vpc.json
+   67  cd ..
+   68  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   69  cat $HOME/.aws/config
+   70  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   71  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   72  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   73  cat $HOME/.aws/config
+   74  vi $HOME/.aws/config
+   75  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   76  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   77  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   78  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   79  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   80  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   81  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   82  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   83  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   84  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   85  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   86  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   87  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   88  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   89  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   90  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   91  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   92  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   93  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   94  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   95  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   96  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   97  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   98  python build.py --labelstack 5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+   99  +
+  100  ç+++++++.lñ´ñ`'çç
+
+  101  python build.py --labelstack vpo-4 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  102  python build.py --labelstack vpo-4 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  103  python build.py --labelstack vpo-4 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  104  python build.py --labelstack vpo-5 -sl "vpc" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  105  python build.py --labelstack eks-5 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  106  python build.py --labelstack eks-5 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  107  python build.py --labelstack eks-5 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  108  python build.py --labelstack eks-5 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  109  python build.py --labelstack eks-5 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  110  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  111  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  112  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  113  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  114  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  115  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  116  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  117  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  118  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  119  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  120  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  121  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  122  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  123  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  124  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  125  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  126  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  127  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  128  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  129  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  130  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  131  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  132  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  133  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  134  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  135  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  136  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  137  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  138  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  139  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  140  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  141  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  142  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  143  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  144  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  145  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  146  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  147  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  148  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  149  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  150  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  151  ll
+  152  ls -l
+  153  cd cloudformation/
+  154  ls -
+  155  ls -l
+  156  aws cloudformation validate-template --template-body file:///eks.json
+  157  aws cloudformation validate-template --template-body file://eks.json
+  158  aws-dev
+  159  aws --profile srv-sants-jenkins cloudformation validate-template --template-body file://eks.json
+  160  cd ..
+  161  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  162  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  163  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  164  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  165  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  166  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  167  python build.py --labelstack eks-6 -sl "eks" --env "dev" -rg "eu-west-1" -zn "eu-west-1a" --update_stack no
+  168  docker ps
+  169  history
+  170  ls -l
+  171  history > history.log
